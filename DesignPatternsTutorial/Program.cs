@@ -5,6 +5,7 @@ namespace DesignPatternsTutorial
     {
         public static void Main(string[] args)
         {
+
         }
     }
 }
