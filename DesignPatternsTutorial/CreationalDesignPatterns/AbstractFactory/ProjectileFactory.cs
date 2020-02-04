@@ -1,8 +1,16 @@
+using DesignPatternsTutorial.CreationalDesignPatterns.FactoryMethod;
+
 namespace DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory
 {
+    public enum ProjectileMotion
+    {
+        Straight,
+        Homing
+    }
+
     public interface ProjectileFactory
     {
-        void CreateBullet();
-        void CreateMissile();
+        Bullet CreateBullet();
+        Missile CreateMissile();
     }
 }
