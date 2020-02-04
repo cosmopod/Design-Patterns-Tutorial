@@ -4,7 +4,7 @@ namespace DesignPatternsTutorial.CreationalDesignPatterns.FactoryMethod
 {
     public class Missile : IProjectile
     {
-        public void Impact()
+        public void Fire()
         {
             Console.WriteLine("Impact as Missile");
         }
