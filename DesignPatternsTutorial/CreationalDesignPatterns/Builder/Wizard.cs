@@ -2,9 +2,9 @@ namespace DesignPatternsTutorial.CreationalDesignPatterns.Builder
 {
     public class Wizard
     {
-        private readonly IPotionCauldron _potionCauldron;
-
-        public Wizard(IPotionCauldron potionCauldron)
+        private IPotionCauldron _potionCauldron;
+        
+        public void SetCauldron(IPotionCauldron potionCauldron)
         {
             _potionCauldron = potionCauldron;
         }

@@ -1,7 +1,6 @@
-using DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory.Factories;
 using DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory.Products;
 
-namespace DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory
+namespace DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory.Factories
 {
     public class StraightProjectileFactory : IProjectileFactory
     {

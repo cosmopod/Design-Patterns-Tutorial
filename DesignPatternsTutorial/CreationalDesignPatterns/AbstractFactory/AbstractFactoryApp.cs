@@ -1,4 +1,3 @@
-using DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory.Factories;
 
 namespace DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory
 {
@@ -10,7 +9,7 @@ namespace DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory
 
         public void Start()
         {
-            var bulletFactory = FactoryProducer.GetProjectileFactory(ProjectileMotion.Homing);
+            var bulletFactory = FactoryProducer.GetProjectileFactory(ProjectileMotion.Straight);
             var homingBullet = bulletFactory.CreateBullet();
             homingBullet.Fire();
 
