@@ -1,13 +1,16 @@
+using DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory.Factories;
+using DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory.Products;
+
 namespace DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory
 {
     public class StraightProjectileFactory : ProjectileFactory
     {
-        public Bullet CreateBullet()
+        public IBullet CreateBullet()
         {
             return new StraightBullet();
         }
 
-        public Missile CreateMissile()
+        public IMissile CreateMissile()
         {
             return new StraightMissile();
         }

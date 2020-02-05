@@ -1,8 +1,8 @@
 using System;
 
-namespace DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory
+namespace DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory.Products
 {
-    public class StraightMissile : Missile
+    public class StraightMissile : IMissile
     {
         public void Fire()
         {

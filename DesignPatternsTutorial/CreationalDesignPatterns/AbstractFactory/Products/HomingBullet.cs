@@ -1,8 +1,8 @@
 using System;
 
-namespace DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory
+namespace DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory.Products
 {
-    public class HomingBullet : Bullet
+    public class HomingBullet : IBullet
     {
         public void Fire()
         {
