@@ -8,7 +8,7 @@ namespace DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory.Factor
         Homing
     }
 
-    public interface ProjectileFactory
+    public interface IProjectileFactory
     {
         IBullet CreateBullet();
         IMissile CreateMissile();

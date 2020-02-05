@@ -5,7 +5,7 @@ namespace DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory
 {
     public class FactoryProducer
     {
-        public static ProjectileFactory GetProjectileFactory(ProjectileMotion projectileMotionType)
+        public static IProjectileFactory GetProjectileFactory(ProjectileMotion projectileMotionType)
         {
             switch (projectileMotionType)
             {

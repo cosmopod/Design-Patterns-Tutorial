@@ -2,7 +2,7 @@ using DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory.Products;
 
 namespace DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory.Factories
 {
-    public class HomingProjectileFactory : ProjectileFactory
+    public class HomingProjectileFactory : IProjectileFactory
     {
         public IBullet CreateBullet()
         {

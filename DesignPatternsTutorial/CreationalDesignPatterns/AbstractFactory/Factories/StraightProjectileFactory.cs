@@ -3,7 +3,7 @@ using DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory.Products;
 
 namespace DesignPatternsTutorial.CreationalDesignPatterns.AbstractFactory
 {
-    public class StraightProjectileFactory : ProjectileFactory
+    public class StraightProjectileFactory : IProjectileFactory
     {
         public IBullet CreateBullet()
         {
