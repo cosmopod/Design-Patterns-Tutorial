@@ -1,6 +1,6 @@
 namespace DesignPatternsTutorial.CreationalDesignPatterns.Builder
 {
-    public interface IRobotBuilder
+    public class Wizard
     {
         
     }
