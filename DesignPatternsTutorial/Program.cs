@@ -1,4 +1,5 @@
 ﻿using System;
+using DesignPatternsTutorial.CreationalDesignPatterns.Prototype;
 
 namespace DesignPatternsTutorial
 {
