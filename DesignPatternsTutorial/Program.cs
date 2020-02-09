@@ -1,7 +1,4 @@
-﻿using System;
-using DesignPatternsTutorial.CreationalDesignPatterns.Prototype;
-
-namespace DesignPatternsTutorial
+﻿namespace DesignPatternsTutorial
 {
     internal class Program
     {
