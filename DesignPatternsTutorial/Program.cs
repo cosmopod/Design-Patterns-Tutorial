@@ -1,4 +1,6 @@
-﻿namespace DesignPatternsTutorial
+﻿using DesignPatternsTutorial.CreationalDesignPatterns.Singleton;
+
+namespace DesignPatternsTutorial
 {
     internal class Program
     {
