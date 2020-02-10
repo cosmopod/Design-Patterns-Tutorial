@@ -10,6 +10,7 @@ namespace DesignPatternsTutorial.CreationalDesignPatterns.Singleton
         public void Initialize()
         {
             AudioManager.Instance.PlayClip("StartGame");
+            AudioManager.Instance.StopClip("Intro");
             AudioManager.Instance.PlayClip("OpenMenu");
         }
     }

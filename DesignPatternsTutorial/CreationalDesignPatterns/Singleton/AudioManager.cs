@@ -28,5 +28,10 @@ namespace DesignPatternsTutorial.CreationalDesignPatterns.Singleton
         {
             Console.WriteLine("Play Clip: " + clipRef);
         }
+
+        public void StopClip(String clipRef)
+        {
+            Console.WriteLine("Stop Clip: " + clipRef);
+        }
     }
 }
